@@ -3,9 +3,8 @@ function Idlist(props) {
       <div className="IdList">
         <h2>IdList</h2>
         {props.children}
-        <br />
-        <hr />
-
+        <br/>
+       
         </div>
   );
 }

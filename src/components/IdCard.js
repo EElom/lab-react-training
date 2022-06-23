@@ -1,12 +1,13 @@
 function IdCard(props) {
   return (
     <div className="idCard">
-      <p>First name: {props.firstName}</p>
-      <p>Last name: {props.lastName}</p>
-      <p>Gender: {props.gender}</p>    
-      <p>Height: {props.height}</p>
-      <p>Birth: {props.birth.toDateString()}</p>
       <p> <img src={props.picture} alt="personPicture" /></p>
+      <p><strong>First name: </strong> {props.firstName} </p> 
+      <p><strong>Last name:</strong> {props.lastName} </p>
+      <p><strong>Gender:</strong> {props.gender}</p>    
+      <p><strong>Height:</strong> {props.height}</p>
+      <p><strong>Birth:</strong> {props.birth.toDateString()}</p>
+     
       </div>
     );
   }
