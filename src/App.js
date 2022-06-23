@@ -17,10 +17,7 @@ function App() {
 
     <Greetings lang={"de"}>Ludwig</Greetings>
     <Greetings lang={"fr"}>Francois</Greetings>
-    <Greetings lang={"es"}>Diego</Greetings>
-    <Greetings lang={"pt"}>Gabriel</Greetings>
-    <Greetings>Mr.Bean</Greetings>
-
+    
   </div>;
 }
 export default App;
