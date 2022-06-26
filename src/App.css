@@ -44,3 +44,28 @@
   border-radius: 5px;
   margin: 20px;
 }
+
+.greetingsList {
+  width: auto;
+  display:flexbox;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.random {
+  width: auto;
+  display:flexbox;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.color {
+  width: auto;
+  display:flexbox;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  color: white;
+}
